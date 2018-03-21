@@ -1,4 +1,4 @@
-.headerTitle { 
+#headerTitle { 
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 6em;
    background-size: 800px 500px;
@@ -13,7 +13,7 @@
     font-size: 32px;
     color: white;
     position: relative;
-    top: 240px;
+    top: 20%;
     right: 330px;
     
 }
@@ -22,7 +22,7 @@
     text-align: center;
     background-image: url("../assets/dream.jpeg");
     background-size: 100%;
-    height: 1200px;
+    height: 800px;
     position: relative;
     background-repeat: no-repeat;
     bottom: 20px;

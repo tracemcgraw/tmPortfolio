@@ -12,21 +12,21 @@
     <link rel="stylesheet" href="css/animate.css">
 </head>
 <body>
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
+        <nav class="navbar navbar-default navbar-static-top" id="navbar">
+            <div id="container">
                 <div class = " navbar-header">
-                    <a class="navbar-brand" href="#">TM</a>
+                    <a class="navbar-brand" href="#headerTitle">TM</a>
                 </div>
                 <ul class ="nav navbar-nav">
-                    <li class="active"><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#" class="fa fa-google"></a></li>
-                    <li><a href="https://www.linkedin.com/in/trace-mcgraw-24027815a/" class="fa fa-linkedin"></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCQ4mXDrt1UPzdGetrehhDyA?view_as=subscriber" class="fa fa-youtube"></a></li>
-                    <li><a href="https://www.instagram.com/vtv_forces/" class="fa fa-instagram"></a></li>
+                <ul class="nav navbar-nav navbar-right" style="right: 10px;">
+                    <li><a href="https://github.com/tracemcgraw" target="blank" class="fa fa-google"></a></li>
+                    <li><a href="https://www.linkedin.com/in/trace-mcgraw-24027815a/" target="blank" class="fa fa-linkedin"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCQ4mXDrt1UPzdGetrehhDyA?view_as=subscriber" target="blank" class="fa fa-youtube"></a></li>
+                    <li><a href="https://www.instagram.com/vtv_forces/" target="blank" class="fa fa-instagram"></a></li>
                 </ul>
                   
             </div>
@@ -34,109 +34,107 @@
     <div class="container-fluid">
             <header class="headerContent">
                 <div class='headerContent-inner'>
-                    <b class="headerTitle">Trace McGraw</b>
+                    <b id="headerTitle">Trace McGraw</b>
                     <b class="title-font">- Web Developer -</b>
                 </div>
             </header>   
-    </div>
-        <br>
-    <div class="aboutContainer">   
-        <section class = "pt">
-            <div class="container">
-                <div class="row">
+    </div> 
+            <div id="about">
                     <div class="aboutBackground">
-                        <h1 class="headText" id="about" style="font:bold;">
-                            <p>About</p>
-                        </h1>
-                        <h2 style="color: rgb(236, 156, 110); font:bold; left: 180px; bottom: 30px; font-size:50px;">
-                            <b> Resourceful, Creative, and Reliable </b>
+                        <h1 class="headText" id="about" style="font:bold;"></h1>
+                        <h2 style="color: rgb(236, 156, 110); font:bold; left:30%; bottom: 30px; font-size:30px;">
+                            <b id="aboutContainer"> Resourceful, Creative, and Reliable </b>
                         </h2>
+                        <img src="./assets/tm.jpg" alt="TM" style="width:400px;height:400px;top: 15%; border-radius:50%; border: solid 5px rgb(21, 240, 185);" align="right">
                         <div class="sumContainer" id="summary" style="color: rgb(236, 156, 110);"> 
-                         <h2 style="color: rgb(236, 156, 110); font:bold;">
-                             <br>
-                             <br>
-                            <b>As a Developer</b>
-                            <br>
-                        </h2>
-                            <b>Creating stimulating, user friendly, and innovated applications for my clients is the most important aspect.</b>
-                            <br>
-                            <br>
-                            <br>
-                            <b>Working with the public for over 10 years in customer service, and recently completing the Eleven Fifty Academy 12 week JavaScript Coding boot-camp. Guest and customer satisfaction is one of the main objectives. Proficient in JavaScript, providing positive and memorable experience for clients and relaying experiences to others. Constantly pursuing my abilities to learn more about software and web development. </b>                        
-                        </div>
-                    </div>
-                        <div class="picContainer">
-                        <img src="./assets/tm.jpg" alt="TM" style="width:450px;height:450px;border-radius:50%; border: solid 5px rgb(21, 240, 185);" align="right">
-                    </div>
+                             <h3 style="color: rgb(236, 156, 110); font:bold;">
+                                 <br>
+                                <br>
+                                <b>As a Developer</b>
+                                <br>
+                            </h3>
+                                <b>Creating stimulating, user friendly, and innovated applications for my clients is the most important aspect.</b>
+                                <br>
+                                <br>
+                                <br>
+                                <b>Working with the public for over 10 years in customer service, and recently completing the Eleven Fifty Academy 12 week JavaScript Coding boot-camp. Guest and customer satisfaction is one of the main objectives. Proficient in JavaScript, providing positive and memorable experience for clients and relaying experiences to others. Constantly pursuing my abilities to learn more about software and web development. </b>                           
+                        </div> 
+                    </div> 
+            </div> 
+            <br>
+            <br>
+            <div id="portfolio"></div>
+            <br>
+            <br>
+            <br>
+            <br>
+    <section>
+            <div class="portContainer">
+                    <br>
+                    <!-- <div class="comingSoonBox">
+                        <a href="./resume.pdf" download><p>More to come in the mean time check out my resume!</p></a>
+                    </div> -->
+                <h1 class="portTitle">Portfolio</h1>
+                <br>
+                <br>
+                <br>
+                    <a href='https://codepen.io/tmcgraw/pen/wyLvwg' target="blank"><img class="portbox" src="./assets/shade.jpg"</a>
+    
+                    <a href='https://elevenfiftyjs.firebaseapp.com/' target="blank"><img class="portbox" src="./assets/pikachu.jpg"</a>
+         
+                    <a href='https://tracemcgraw.github.io/storefront/' target="blank"><img class="portbox" src="./assets/vtvlogo.jpg"</a>
+         
+                    <a href=''><img class="portbox" src="./assets/jspic.png"</a>
+                    
+            </div>   
+            <div class="comingSoonBox">
+                    <a href="./resume.pdf" download><p>More to come in the mean time check out my resume!</p></a>
                 </div>
+    </section>
+ <section id="contact">
+    <p id="contactTitle">Contact Me!</p>
+<div class="wrapper">
+<div class="col-md-6">
+    <form action="https://formspree.io/mcgraw.trace@gmail.com" method="POST">
+        <div class="control-group">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name"
+                    name="name">
+                <p class="help-block text-danger"></p>
             </div>
-        </section>
-    </div>  
-    <section id="portfolio">
-            <div class="container wow fadeInUp">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h3 class="section-title">Portfolio</h3>
-                        <div class="section-title-divider"></div>
-                    </div>
-                </div>
-                    <div class="row">
-                        <div class="col-md-3" href="assets/img/robot1.jpg" title="CSS Creature">
-                            <a class="portfolio-item with-caption img-link mfp-title" style="background-image: url(assets/img/badge-blue.png);" href="assets/img/robot1.jpg" title="CSS Work">
-                                <div class="details">
-                                    <h4>Portfolio 1</h4>
-                                    <span>CSS Creature</span>
-                                </div>
-                            </a>
-                        </div>
-    
-                        <div class="col-md-3">
-                            <a class="portfolio-item with-caption img-link mfp-title" style="background-image: url(assets/img/badge-red.png);" href="assets/img/robot2.jpg" title="HTML5 Work">
-                                <div class="details">
-                                    <h4>Portfolio 2</h4>
-                                    <span>Store app</span>
-                                </div>
-                            </a>
-                        </div>
-    
-                        <div class="col-md-3">
-                            <a class="portfolio-item with-caption img-link mfp-title" style="background-image: url(assets/img/badge-yellow.png);" href="assets/img/robot3.jpg" title="Vanilla JavaScript Studies">
-                                <div class="details">
-                                    <h4>Portfolio 3</h4>
-                                    <span>JavaScript Library</span>
-                                </div>
-                            </a>
-                        </div>
-    
-                        <div class="col-md-3">
-                            <a class="portfolio-item with-caption img-link mfp-title" style="background-image: url(assets/img/badge-blue.png);" href="assets/img/robot4.jpg" title="Workout Log">
-                                <div class="details">
-                                    <h4>Portfolio 4</h4>
-                                    <span>Workout Log</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-            </section>
-            <section class = "pt">
-                <div class="container">
-                    <div class="row">
-                        <h1 class="headText" id="contact">
-                            <b>Contact</b>
-                        </h1>
-                    </div>
-                </div>
-            </section>
-
+        </div>
+        <div class="control-group">
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" class="form-control" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email"
+                    name="_replyto">
+                <p class="help-block text-danger"></p>
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="form-group">
+                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message"
+                    name="message"></textarea>
+                <p class="help-block text-danger"></p>
+            </div>
+        </div>
+        <div class="text-center">
+            <div id="success"></div>
+            <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send Message</button>
+        </div>
+    </form>
+</div>
+</section>
+        
+    </div>
             <script src="./tools/bootstrap/js/bootstrap.min.js"></script>
             <script src="main.min.js"></script>
-            <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
-              </body>
-<footer>
-    <div class="footerContainer"><p>Contact information: <a href="mcgraw.trace@gmail.com">mcgraw.trace@gmail.com</a> copy; Copyright 2018</p></div>
+</body>
+    <footer>
+        
+        <div class="footerContainer"><p>Contact information: <a href="mcgraw.trace@gmail.com">mcgraw.trace@gmail.com</a>Copyright 2018</p></div>
     </footer>
 
 </html>
